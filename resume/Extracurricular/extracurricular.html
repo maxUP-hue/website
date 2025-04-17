@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Extracurricular</title>
+  <link rel="stylesheet" href="extracurricular-style.css" />
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="inner-container">
+      <div class="navbar">
+        <h3>PORTFOLIO</h3>
+        <button class="nav-toggle" onclick="toggleNav()">☰</button>
+        <ul class="navbar-ul">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../Qualification/qualification.html">Qualifications</a></li>
+          <li><a href="../Skills/skills.html">Skills</a></li>
+          <li><a href="../Achievements/achievements.html">Achievements</a></li>
+          <li><a href="#" style="color: white;">Extracurricular</a></li>
+          <li><a href="../Contact/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <h3>Extracurricular</h3>
+        <p><strong>Head Boy:</strong> Managed all school events and enhanced audience engagement (2023–2024).</p>
+        <p><strong>Music Captain:</strong> Contributed to all music events and competitions (2022–2024). Won
+          district-level competition — <strong>First Place</strong>.</p>
+        <p><strong>House Captain:</strong> Led the house to overall first position in most events (2022–2023).</p>
+      </div>
+    </div>
+  </div>
+  <script>
+    function toggleNav() {
+      const nav = document.querySelector('.navbar-ul');
+      nav.classList.toggle('show');
+    }
+  </script>
+</body>
+
+</html>

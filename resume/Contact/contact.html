@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact</title>
+  <link rel="stylesheet" href="contact-style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="inner-container">
+      <div class="navbar">
+        <h3>PORTFOLIO</h3>
+        <button class="nav-toggle" onclick="toggleNav()">☰</button>
+        <ul class="navbar-ul">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../Qualification/qualification.html">Qualifications</a></li>
+          <li><a href="../Skills/skills.html">Skills</a></li>
+          <li><a href="../Achievements/achievements.html">Achievements</a></li>
+          <li><a href="../Extracurricular/extracurricular.html">Extracurricular</a></li>
+          <li><a href="#" style="color: white;">Contact</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <h3>Contact Me</h3>
+        <p><img src="call.svg" alt="Phone Number"><span>+91 9927380121</span></p>
+        <p><img src="mail.svg" alt="Email"><span>gauravtomar992738@gmail.com</span></p>
+        <p><img src="linkedin.svg" alt="LinkedIn"><span>Gaurav Tomar</span></p>
+        <footer class="references">
+          References: 9520004199, 8171539723
+        </footer>
+      </div>
+    </div>
+  </div>
+  <script>
+    function toggleNav() {
+      const nav = document.querySelector('.navbar-ul');
+      nav.classList.toggle('show');
+    }
+  </script>
+</body>
+
+</html>

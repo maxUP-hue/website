@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills</title>
+  <link rel="stylesheet" href="skills-style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="inner-container">
+      <div class="navbar">
+        <h3>PORTFOLIO</h3>
+        <button class="nav-toggle" onclick="toggleNav()">☰</button>
+        <ul class="navbar-ul">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../Qualification/qualification.html">Qualifications</a></li>
+          <li><a href="#" style="color: white;">Skills</a></li>
+          <li><a href="../Achievements/achievements.html">Achievements</a></li>
+          <li><a href="../Extracurricular/extracurricular.html">Extracurricular</a></li>
+          <li><a href="../Contact/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <h3>Language</h3>
+        <ul>
+          <li>Fluent English</li>
+          <li>Fluent Hindi</li>
+          <li>Basic French</li>
+        </ul>
+        <h3>Computer Skills</h3>
+        <ul>
+          <li>Basic Python Programming</li>
+        </ul>
+        <h3>Soft Skills</h3>
+        <ul>
+          <li>Strong Leadership</li>
+          <li>Strong Communication Ability</li>
+          <li>Excellent Teamwork</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script>
+    function toggleNav() {
+      const nav = document.querySelector('.navbar-ul');
+      nav.classList.toggle('show');
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Qualification</title>
+  <link rel="stylesheet" href="qualification-style.css" />
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="inner-container">
+      <div class="navbar">
+        <h3>PORTFOLIO</h3>
+        <button class="nav-toggle" onclick="toggleNav()">☰</button>
+        <ul class="navbar-ul">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="#" style="color: white;">Qualifications</a></li>
+          <li><a href="../Skills/skills.html">Skills</a></li>
+          <li><a href="../Achievements/achievements.html">Achievements</a></li>
+          <li><a href="../Extracurricular/extracurricular.html">Extracurricular</a></li>
+          <li><a href="../Contact/contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <h2>Education</h2>
+        <div class="contain-content">
+          <div class="section1">
+            <p>Jaswant Modern School, Dehradun (2016–2024)</p>
+            <ul>
+              <li>
+                12th Grade
+                <ul class="sub-list">
+                  <li>Graduated: 2024</li>
+                  <li>Percentage Obtained: 88%</li>
+                  <li>Highest marks in Chemistry (board exams)</li>
+                </ul>
+              </li>
+              <li>
+                10th Grade
+                <ul class="sub-list">
+                  <li>Graduated: 2022</li>
+                  <li>Percentage Obtained: 86%</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <div class="section2">
+            <p>IIM Bangalore</p>
+            <span>
+              Bachelor of Business Administration <br />
+              <span class="graduate">Expected Graduation: 2027</span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    function toggleNav() {
+      const nav = document.querySelector('.navbar-ul');
+      nav.classList.toggle('show');
+    }
+  </script>
+</body>
+
+</html>

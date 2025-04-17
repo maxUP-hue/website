@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./About/index-style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="inner-container">
+      <div class="navbar">
+        <h3>PORTFOLIO</h3>
+        <button class="nav-toggle" onclick="toggleNav()">☰</button>
+        <ul id="nav-menu">
+          <li><a href="#" style="color: white;">Home</a></li>
+          <li><a href="./Qualification/qualification.html">Qualifications</a></li>
+          <li><a href="./Skills/skills.html">Skills</a></li>
+          <li><a href="./Achievements/achievements.html">Achievements</a></li>
+          <li><a href="./Extracurricular/extracurricular.html">Extracurricular</a></li>
+          <li><a href="./Contact/contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <div class="about">
+          <div class="inner-content">
+            <p id="hello">Hello</p>
+            <h1>I'm <span>Gourav Tomar</span></h1>
+            <p id="para">Ambitious and driven IIMB student. Seeking to develop stronger leadership and analytical skills
+              to contribute meaningfully to the business world. Eager to leverage academic excellence, problem-solving
+              abilities, and a passion for learning in a dynamic and challenging environment.</p>
+            <a
+              href="https://www.canva.com/design/DAGN0w0NtI0/szw2nrxxYLUyLWJjEO0b8w/edit?utm_content=DAGN0w0NtI0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><button>Download
+                CV</button></a>
+          </div>
+        </div>
+        <div class="picture">
+          <img src="./About/gourav1.jpg" alt="Gourav Tomar">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function toggleNav() {
+      const nav = document.getElementById('nav-menu');
+      nav.classList.toggle('show');
+    }
+  </script>
+</body>
+
+</html>
